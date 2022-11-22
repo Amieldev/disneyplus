@@ -49,6 +49,10 @@ const Nav=styled.nav`
 const Logo=styled.img`
     width:80px;
     cursor:pointer;
+    transition:0.2s;
+    &:hover{
+        width:90px;
+    }
 `
 
 const NavMenu=styled.div`
@@ -98,4 +102,9 @@ const UserImg=styled.img`
     height:48px;
     border-radius:50%;
     cursor:pointer;
+    transition:0.2s;
+    &:hover{
+        width:50px;
+        height:50px;
+    }
 `
