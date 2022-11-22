@@ -51,7 +51,7 @@ const Logo=styled.img`
     cursor:pointer;
     transition:0.2s;
     &:hover{
-        width:90px;
+        transform:scale(1.1);
     }
 `
 
@@ -83,7 +83,7 @@ const NavMenu=styled.div`
                 right:0;
                 bottom:-6px;
                 opacity:0;
-                transition:0.2s;
+                transition:0.25s;
                 transform-origin:left center;
                 transform:scaleX(0);
             }
@@ -98,13 +98,12 @@ const NavMenu=styled.div`
 `
 
 const UserImg=styled.img`
-    width:48px;
-    height:48px;
+    width:45px;
+    height:45px;
     border-radius:50%;
     cursor:pointer;
-    transition:0.2s;
+    transition:0.25s;
     &:hover{
-        width:50px;
-        height:50px;
+        transform:scale(1.1);
     }
 `
