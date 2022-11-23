@@ -102,8 +102,10 @@ const UserImg=styled.img`
     height:45px;
     border-radius:50%;
     cursor:pointer;
-    transition:0.25s;
+    transition:0.15s;
     &:hover{
+        border:1px solid rgba(249,249,249,0.8);
+        box-shadow:7px 7px 7px rgba(0,0,0,0.8);
         transform:scale(1.1);
     }
 `
