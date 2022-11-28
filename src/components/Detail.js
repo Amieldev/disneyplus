@@ -5,7 +5,7 @@ function Detail() {
   return (
     <Container>
         <Background>
-            <img src="/images/movie-loki.jpg"/>
+            <img src="/images/background-loki.jpg"/>
         </Background>
         <ImageTitle>
           <img src="/images/title-loki.png"/>
@@ -33,7 +33,7 @@ function Detail() {
           2021 . 60H . Fantasy, Marvel, Heroes
         </SubTitle>
         <Description>
-        Loki, the God of Mischief, steps out of his brother's shadow to embark
+        Loki, the God of Mischief, steps out of his brother's shadow to embark<br/>
         on an adventure that takes place after the events of "Avengers: Endgame."
         </Description>
     </Container>
@@ -65,10 +65,12 @@ const Background=styled.div`
 `
 
 const ImageTitle=styled.div`
-    height:30vh;
-    width:35vw;
+    height:20vh;
+    width:25vw;
+    margin-left:22px;
     min-height:170px;
     min-width:200px;
+    margin-top:60px;
 
     img{
       width:100%;
@@ -139,6 +141,7 @@ const SubTitle=styled.div`
     font-size:15px;
     min-height:20px;
     margin-top:26px;
+    margin-left:22px;
 `
 
 const Description=styled.div`
@@ -146,4 +149,6 @@ const Description=styled.div`
     color:rgb(249,249,249);
     font-size:20px;
     margin-top:16px;
+    margin-left:22px;
+    max-width:760px;
 `

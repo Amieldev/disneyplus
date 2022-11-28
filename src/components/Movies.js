@@ -7,7 +7,14 @@ function Movies() {
         <h4>Recommended for You</h4>
         <Conent>
             <Wrap>
+                <a href="/detail">
                 <img src="/images/movie-loki.jpg"/>
+                </a>
+            </Wrap>
+            <Wrap>
+                <a href="/detail">
+                <img src="/images/movie-moonknight.jpeg"/>
+                </a>
             </Wrap>
             <Wrap>
                 <img src="/images/movie-lat.png"/>
@@ -15,15 +22,12 @@ function Movies() {
             <Wrap>
                 <img src="/images/movie-legends.jpg"/>
             </Wrap>
-            <Wrap>
-                <img src="/images/movie-avengers.jpg"/>
-            </Wrap>
     
             <Wrap>
                 <img src="/images/movie-mando.jpg"/>
             </Wrap>
             <Wrap>
-                <img src="/images/movie-cinderella.jpg"/>
+                <img src="/images/movie-kenobi.jpg"/>
             </Wrap>
             <Wrap>
                 <img src="/images/movie-aladin.jpg"/>
@@ -39,7 +43,7 @@ function Movies() {
 export default Movies
 
 const Container=styled.div`
-    padding:;
+    
 `
 
 const Conent=styled.div`
@@ -60,7 +64,7 @@ const Wrap=styled.div`
     img{
         width:100%;
         height:100%;
-        object-fir:cover;
+        object-fit:cover;
     }
 
     &:hover{
